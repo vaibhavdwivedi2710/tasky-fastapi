@@ -1,0 +1,4 @@
+import os
+
+TASKY_MONGOFDB_URI = os.getenv("TASKY_MONGOI_URI")
+TASKY_SECRET_KEY = os.getenv("TASKY_SECRET_KEY")
